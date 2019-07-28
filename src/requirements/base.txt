@@ -1,0 +1,19 @@
+# Core
+django>=2.2,<2.3
+pillow>=6.1,<6.2
+psycopg2-binary>=2.7,<2.8
+
+django-cors-headers>=1.1,<1.2
+django-extensions>=2.1,<2.2
+djangorestframework>=3.9,<3.10
+drf-nested-routers>=0.10,<0.11
+drf-yasg==1.6.1
+flex==6.12.0
+swagger_spec_validator==2.1.0
+
+# Packages
+ipython
+Werkzeug
+
+# Unversioned packages
+djangorestframework-camel-case
