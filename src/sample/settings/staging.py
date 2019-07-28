@@ -5,7 +5,7 @@ Django staging settings for luke project.
 import os
 import urlparse
 
-from . import *  # noqa
+from .base import *  # noqa
 
 
 DEBUG = False

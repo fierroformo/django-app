@@ -2,7 +2,7 @@
 """
 Django development settings for sample project.
 """
-from . import *  # noqa
+from .base import *  # noqa
 
 
 # Debug

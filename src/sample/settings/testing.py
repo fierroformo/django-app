@@ -2,7 +2,7 @@
 """
 Django development settings for luke project.
 """
-from . import *  # noqa
+from .base import *  # noqa
 
 # Short key for tests speed up
 SECRET_KEY = 'secret'
