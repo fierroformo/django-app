@@ -13,7 +13,7 @@ API made with Django 2.2
     ```bash
     $ mkdir myproject
     $ cd myproject
-    $ wget https://github.com/fierroformo/django-app/archive/api.tar.gz -O - | tar -xz --strip 1
+    $ wget https://github.com/fierroformo/django-app/archive/master.tar.gz -O - | tar -xz --strip 1
     ```
 
 2. Build docker environment
