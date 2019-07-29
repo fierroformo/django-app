@@ -118,6 +118,12 @@ STATIC_ROOT = os.path.realpath(
     os.path.join(BASE_DIR, '..', '..', 'media', 'assets')
 )
 
+MEDIA_ROOT = os.path.realpath(
+    os.path.join(BASE_DIR, '..', '..', 'media', 'uploads')
+)
+
+MEDIA_URL = '/media/uploads/'
+
 REST_FRAMEWORK = {
     'PAGE_SIZE': 24,
     'DEFAULT_PERMISSION_CLASSES': (

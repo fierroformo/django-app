@@ -63,3 +63,11 @@ Local | [http://127.0.0.1:8000](http://127.0.0.1:8000) | docker exec -it django_
     ```bash
     $ docker exec -it django_app bash -c "python manage.py migrate <app_name>"
     ```
+
+
+### Load fixtures
+
+    ```bash
+    docker exec -it django_app bash -c "python manage.py loaddata <fixture>"
+    ```
+
